@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: local
+
+  data:
+    redis:
+      azure:
+        client-id: ${client-id}
+        client-secret: ${client-secret}
+        tenant-id: ${tenant-id}
+      host: ${host}}
+      port: 6380
+      ssl: true
+      timeout: 5000
